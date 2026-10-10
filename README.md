@@ -1,10 +1,15 @@
 # Casino Bonus Scraper
 
-A small technical assessment project that scrapes casino bonus information from a public source, uses a language model to structure free-text bonus terms, saves the results as JSON, and displays the data in a React web page.
+assessment project that scrapes casino bonus information from a public source, uses a language model to structure free-text bonus terms, saves the results as JSON, and displays the data in a React web page.
 
 ## Tech Stack
 
-
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)](https://www.json.org/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://www.netlify.com/)
+[![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
 
 ## Project structure
 
