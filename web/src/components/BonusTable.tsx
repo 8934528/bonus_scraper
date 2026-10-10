@@ -9,9 +9,6 @@ function BonusTable() {
           <i className="bi bi-gift me-2 text-success"></i>
           Current bonus offers
         </h2>
-        <p className="text-secondary mb-0">
-          Three offers collected from a public casino comparison source.
-        </p>
       </div>
 
       <div className="table-responsive bonus-table-wrapper">
