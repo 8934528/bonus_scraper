@@ -5,21 +5,24 @@ function BonusTable() {
   return (
     <section className="fade-in">
       <div className="mb-4">
-        <h2 className="h4 fw-bold mb-1">Current bonus offers</h2>
+        <h2 className="h4 fw-bold mb-1">
+          <i className="bi bi-gift me-2 text-success"></i>
+          Current bonus offers
+        </h2>
         <p className="text-secondary mb-0">
           Three offers collected from a public casino comparison source.
         </p>
       </div>
 
-      <div className="table-responsive">
+      <div className="table-responsive bonus-table-wrapper">
         <table className="table align-middle mb-0">
           <thead>
             <tr>
-              <th>Casino</th>
-              <th>Welcome Bonus</th>
-              <th>Wagering</th>
-              <th>Minimum Deposit</th>
-              <th>Source</th>
+              <th><i className="bi bi-building me-2"></i>Casino</th>
+              <th><i className="bi bi-gift me-2"></i>Welcome Bonus</th>
+              <th><i className="bi bi-arrow-repeat me-2"></i>Wagering</th>
+              <th><i className="bi bi-wallet2 me-2"></i>Min Deposit</th>
+              <th><i className="bi bi-link-45deg me-2"></i>Source</th>
             </tr>
           </thead>
 
@@ -27,17 +30,13 @@ function BonusTable() {
             {bonuses.map((bonus) => (
               <tr key={bonus.casino}>
                 <td className="fw-semibold">{bonus.casino}</td>
-
                 <td>{bonus.welcomeBonus}</td>
-
                 <td>
                   <span className="badge text-bg-light border">
                     {bonus.wageringRequirement}x
                   </span>
                 </td>
-
                 <td>{bonus.minimumDeposit}</td>
-
                 <td>
                   <SourceLink url={bonus.sourceUrl} />
                 </td>

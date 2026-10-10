@@ -3,18 +3,26 @@ function Header() {
     <header className="border-bottom bg-white">
       <div className="container py-4">
         <div className="fade-in">
-          <p className="text-uppercase small fw-semibold mb-2 text-success">
-            Casino Bonus Comparison
-          </p>
+          <div className="row align-items-center">
+            <div className="col-md-6">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <i className="bi bi-shield-check text-success"></i>
+                <span className="small fw-semibold text-success">
+                  Casino Bonus
+                </span>
+              </div>
+            </div>
 
-          <h1 className="display-6 fw-bold mb-2">
-            Compare casino welcome bonuses
-          </h1>
+            <div className="col-md-6 text-md-end">
+              <h1 className="h2 fw-bold mb-2">
+                casino welcome bonuses
+              </h1>
 
-          <p className="text-secondary mb-0">
-            Bonus information collected from a public source and structured
-            automatically.
-          </p>
+              <p className="text-secondary mb-0">
+                compare bonus amounts, wagering requirements, and minimum deposits
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
