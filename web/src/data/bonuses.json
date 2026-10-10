@@ -1,0 +1,23 @@
+[
+  {
+    "casino": "Hollywoodbets",
+    "welcomeBonus": "R25 sign-up + 50 free spins",
+    "wageringRequirement": 1,
+    "minimumDeposit": "R10",
+    "sourceUrl": "https://betproof.co.za/casino-bonuses-south-africa/"
+  },
+  {
+    "casino": "Betway South Africa",
+    "welcomeBonus": "R1,000 sports + R2,000 casino",
+    "wageringRequirement": 30,
+    "minimumDeposit": "R5",
+    "sourceUrl": "https://betproof.co.za/casino-bonuses-south-africa/"
+  },
+  {
+    "casino": "Supabets",
+    "welcomeBonus": "R50 free bet + 100 spins + 100% up to R2,000",
+    "wageringRequirement": 10,
+    "minimumDeposit": "R10",
+    "sourceUrl": "https://betproof.co.za/casino-bonuses-south-africa/"
+  }
+]
